@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JeuDeRole_v1._2.MonstreFacile">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAwAAAgAAAIAABAIAAAACAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>MonstreFacile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JeuDeRole_v1._2.De">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>De.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JeuDeRole_v1._2.Combatant">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAgAAAAAAAAAAAAACADAAAEAgAAAQQQAQIAA=</HashCode>
+      <FileName>Combatant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JeuDeRole_v1._2.Joueur">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAAAgAAgIAAIAIAAAACAAAAAEAAAAAAAQAAQAA=</HashCode>
+      <FileName>Joueur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JeuDeRole_v1._2.MaitreDuJeu">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <AssociationLine Name="MonstreFacile" Type="JeuDeRole_v1._2.MonstreFacile">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.115" Y="0.066" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAAACAEAAAAAgACJQAAAQAMAIAAAAAAIA=</HashCode>
+      <FileName>MaitreDuJeu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MonstreFacile" />
+      <Property Name="De" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JeuDeRole_v1._2.Program" Collapsed="true">
+    <Position X="10.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAgAAAAAAEAAAIAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
